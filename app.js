@@ -14,6 +14,14 @@ boton.addEventListener('click', function(){
     //console.log(contador);
 });
 
+// Aqui reseteamos el contador
+const reset = document.getElementById('reset');
+
+reset.addEventListener('click', function(){
+    contador = 0;
+    conteo.textContent = `${contador}`;
+})
+
 
 
 
